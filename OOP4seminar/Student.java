@@ -30,4 +30,5 @@ public class Student extends Teacher implements Comparable<Student> {
             return -1;
         return 0;
     }
+    
 }
