@@ -1,9 +1,11 @@
-package OOP4seminar;
+package OOP4seminar.View;
 
 import java.util.List;
 
-public class StudentView implements TeacherView<Student>{
-    
+import OOP4seminar.Model.Student;
+
+public class StudentView implements View<Student> {
+
     @Override
     public void sendOnConsole(List<Student> list) {
         for (Student i : list) {

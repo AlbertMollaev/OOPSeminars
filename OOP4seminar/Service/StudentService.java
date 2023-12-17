@@ -1,9 +1,13 @@
-package OOP4seminar;
+package OOP4seminar.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentService implements TeacherService<Student> {
+import OOP4seminar.Model.Student;
+
+
+
+public class StudentService implements Service<Student> {
     private final List<Student> studentList = new ArrayList<>();
     @Override
     public void create(String firstName, String secondName, String lastName) {

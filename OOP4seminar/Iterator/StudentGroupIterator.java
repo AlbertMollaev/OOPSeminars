@@ -1,7 +1,10 @@
-package OOP4seminar;
+package OOP4seminar.Iterator;
 
 import java.util.Iterator;
 import java.util.List;
+
+import OOP4seminar.Service.StudentGroup;
+import OOP4seminar.Model.Student;
 
 public class StudentGroupIterator implements Iterator<Student> {
     private List<Student> studentList;

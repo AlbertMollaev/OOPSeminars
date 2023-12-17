@@ -1,6 +1,7 @@
-package OOP4seminar;
+package OOP4seminar.Model;
 
-public class Student extends Teacher implements Comparable<Student> {
+
+public class Student extends User implements Comparable<Student> {
     private int studentId;
 
     public Student(int studentId, String firstName, String secondName, String lastName) {

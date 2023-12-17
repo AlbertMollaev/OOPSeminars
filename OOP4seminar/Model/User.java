@@ -1,11 +1,12 @@
-package OOP4seminar;
+package OOP4seminar.Model;
 
-public class Teacher {
+public abstract class User {
+
     private String firstName;
     private String secondName;
     private String lastName;
 
-    public Teacher(String firstName, String secondName, String lastName) {
+    public User(String firstName, String secondName, String lastName) {
         this.firstName = firstName;
         this.secondName = secondName;
         this.lastName = lastName;
@@ -35,14 +36,8 @@ public class Teacher {
         this.lastName = lastName;
     }
 
-    @Override
-    public String toString() {
-        return "Teacher [firstName=" + firstName + ", secondName=" + secondName + ", lastName=" + lastName + "]";
-    }
-
     
 
     
 
-    
 }

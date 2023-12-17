@@ -1,8 +1,11 @@
-package OOP4seminar;
+package OOP4seminar.Comparator;
 
 import java.util.Comparator;
 
-public class TeacherComparator<T extends Teacher> implements Comparator<T> {
+import OOP4seminar.Model.User;
+
+public class TeacherComparator<T extends User> implements Comparator<T> {
+    
     @Override
     public int compare(T o1, T o2) {
         int resultOfComparing = o1.getSecondName().compareTo(o2.getSecondName());
